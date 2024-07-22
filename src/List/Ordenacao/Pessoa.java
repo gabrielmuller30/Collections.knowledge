@@ -2,6 +2,7 @@ package List.Ordenacao;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class Pessoa implements Comparable<Pessoa> {
     //atributs
@@ -9,7 +10,7 @@ public class Pessoa implements Comparable<Pessoa> {
     private int idade;
     private double altura;
 
-    private Pessoa (String nome, int idade, double altura){
+    public Pessoa (String nome, int idade, double altura){
         this.nome = nome;
         this.idade = idade;
         this.altura = altura;
